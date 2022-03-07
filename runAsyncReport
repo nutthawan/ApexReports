@@ -32,5 +32,7 @@ if(instance.getStatus() == 'SUCCESS'){
 
     // Get the field value from the first data cell of the first row of the report
     //Reports.ReportDetailRow detailRow = factDetails.getRows()[0];
-    //System.debug(detailRow.getDataCells()[0].getLabel());
+    System.debug(detailRow.getDataCells()[0].getLabel());
+    
+    
 }
